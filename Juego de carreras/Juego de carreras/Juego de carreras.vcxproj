@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Casillas.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Casillas.h" />
     <ClInclude Include="Const.h" />
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
