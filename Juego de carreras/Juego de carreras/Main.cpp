@@ -2,6 +2,9 @@
 #include "Tablero.h"
 #include <cstdlib>
 #include <ctime>
+#include "Dado.h"
+#include "Const.h"
+#include "Casillas.h"
 
 int lanzarDado() {
 	return 1 + rand() % 6;
