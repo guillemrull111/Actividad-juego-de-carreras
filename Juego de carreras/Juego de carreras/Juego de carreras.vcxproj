@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Casillas.cpp" />
+    <ClCompile Include="Dado.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casillas.h" />
     <ClInclude Include="Const.h" />
+    <ClInclude Include="Dado.h" />
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

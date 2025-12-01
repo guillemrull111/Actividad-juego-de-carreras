@@ -24,6 +24,9 @@
     <ClCompile Include="Casillas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Const.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Casillas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dado.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
