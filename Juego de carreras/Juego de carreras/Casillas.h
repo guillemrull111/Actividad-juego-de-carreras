@@ -1,4 +1,4 @@
 #pragma once
 #include "Const.h"
 
-void Casillas(char tablero[CASILLAS]);
+void CasillaMultiplo5(char tablero[CASILLAS]);

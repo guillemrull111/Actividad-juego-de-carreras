@@ -11,6 +11,7 @@ int main() {
 	char tablero[CASILLAS];
 	InicializarTablero(tablero);
 	ImprimirTablero(tablero);
+	
 
 
 	int resultado = lanzarDado();

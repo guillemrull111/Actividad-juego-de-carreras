@@ -2,7 +2,12 @@
 #include "Const.h"
 #include "Dado.h"
 
-void Casillas(char tablero[CASILLAS]) {
+//void AvanzarCasillas(char tablero[CASILLAS]) {
+//
+//	if
+//}
+
+void CasillaMultiplo5(char tablero[CASILLAS]) {
 
 	int InputUsuario;
 

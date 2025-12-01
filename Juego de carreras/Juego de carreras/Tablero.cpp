@@ -4,6 +4,7 @@
 void InicializarTablero(char tablero[CASILLAS]) {
     for (int i = 0; i < CASILLAS; i++) {
         tablero[i] = '.';
+        tablero[0] = 'O';
         std::cout << tablero[i];  
     }
     std::cout << std::endl;  
