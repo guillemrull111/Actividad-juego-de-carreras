@@ -1,10 +1,17 @@
 #include <iostream>
 #include "Const.h"
 
-void Tablero(char tablero[CASILLAS]) {
+void InicializarTablero(char tablero[CASILLAS]) {
+    for (int i = 0; i < CASILLAS; i++) {
+        tablero[i] = '.';  
+        std::cout << tablero[i];  
+    }
+    std::cout << std::endl;  
+}
 
-	for (int i = 0; i < CASILLAS; i++)
-	{
-		tablero[CASILLAS] = '.';
-	}
+void ImprimirTablero(char tablero[CASILLAS]) {
+    for (int i = 0; i < 50; i++) {
+        std::cout << tablero[i];  
+    }
+    std::cout << std::endl;  
 }

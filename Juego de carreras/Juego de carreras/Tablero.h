@@ -1,4 +1,5 @@
 #pragma once
 #include "Const.h"
 
-void Tablero(char tablero[CASILLAS]);
+void InicializarTablero(char tablero[CASILLAS]);
+void ImprimirTablero(char tablero[CASILLAS]);
